@@ -32,7 +32,7 @@ const Signup = () => {
     const formData = new FormData();
     formData.append("image", image);
     const url =
-      "https://api.imgbb.com/1/upload?key=4e6182c8cb621e9c45518eeee1921456"; ;
+      "https://api.imgbb.com/1/upload?key=4e6182c8cb621e9c45518eeee1921456";
 
     fetch(url, {
       method: "POST",
